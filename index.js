@@ -1,11 +1,12 @@
-const divide = (a,b) => a / b;
-divide(2000,100)
+
+const divide = (a, b) => a / b;
+console.log(divide(2000, 100)); 
+
 
 const square = x => x * x;
-square(x)
-
+console.log(square(5)); 
 
 const add = (a, b) => {
-    return a + b
-}
-add(3,4)
+    return a + b;
+};
+console.log(add(3, 4)); 
